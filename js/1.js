@@ -61,10 +61,13 @@ cont.then(
         const container3=document.getElementsByClassName("container-3")[0]
         container3.style.backgroundImage= `url(${imgArr[cont1]})`
         let a=document.getElementById("colorGradient")
-        a.id="colorGradient1"
+        if (a !== null){
+            if (a.id=="colorGradient"){ a.id="colorGradient1"}   
+        }
         const b=document.getElementById("colorGradient1")
         b.classList.remove(...backgroundcl );
         b.classList.add(`${backgroundcl[cont1]}`)
+        imgcambio()
     }
 ).catch(
     reject=>{
@@ -72,7 +75,9 @@ cont.then(
         const container3=document.getElementsByClassName("container-3")[0]
         container3.style.backgroundImage= `url(${imgArr[cont1]})`
         let a=document.getElementById("colorGradient")
-        a.id="colorGradient1"
+        if (a !== null){
+            if (a.id=="colorGradient"){ a.id="colorGradient1"}   
+        }
         const b=document.getElementById("colorGradient1")
         b.classList.remove(...backgroundcl );
         b.classList.add(`${backgroundcl[cont1]}`)
@@ -80,4 +85,4 @@ cont.then(
     })
 }
 
-// imgcambio()
+ imgcambio()
