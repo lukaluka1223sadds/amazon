@@ -1,0 +1,65 @@
+.container-3 {
+    height: 600px;
+    width: 100%;
+    background-image: url("../img/imgtast.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    > img {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 130px;
+    }
+    & img:first-child {
+        position: relative;
+        top: 130px;
+        left: 50px;
+    }
+    & img:nth-child(2) {
+        left: 1200px;
+    }
+}
+
+.container-3-component-1 {
+    display: grid;
+    width: 1090px;
+    column-gap: 77px;
+    row-gap: 30px;
+    position: static;
+    margin-top: 300px;
+    grid-template-columns: repeat(3,312px);
+    grid-template-rows: repeat(9,350px);
+
+}
+
+.container-3-component-1 > * {
+    height: 350px;
+    width: 312px;
+    background-color: rgb(255, 255, 255);
+}
+
+#cntr-3-component-1-container-1 {
+    display: flex;
+
+}
+.component-1-component-7{
+    grid-column: 1/4;
+     background-color: rgb(255, 255, 255);
+    height: 210px;
+    width: 100%;
+    margin-top: 70px;
+}
+.component-1-component-14{
+    grid-column: 1/4;
+     background-color: rgb(255, 255, 255);
+    height: 210px;
+    width: 100%;
+    margin-top: 70px;
+}
+.component-1-component-21{
+    grid-column: 1/4;
+    background-color: rgb(255, 255, 255);
+   height: 210px;
+   width: 100%;
+   margin-top: 70px;
+}

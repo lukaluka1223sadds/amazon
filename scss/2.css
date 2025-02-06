@@ -1,0 +1,146 @@
+.container-4 {
+  height: 600px;
+  width: 100%;
+  position: static;
+  transform: translate(0px, 3160px);
+}
+
+.container-4js {
+  top: 3160px;
+}
+
+.container-4-component-1 {
+  height: 75px;
+  background-color: rgb(38, 38, 103);
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.container-4-component-2 {
+  height: 730px;
+  width: 100%;
+  background-color: rgb(25, 25, 64);
+  display: grid;
+  box-sizing: border-box;
+  -moz-column-gap: 1px;
+       column-gap: 1px;
+  color: white;
+  font-size: 15px;
+  grid-template-columns: repeat(4, 172px);
+  grid-template-rows: repeat(2, 335px);
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.container-4-component-3 {
+  height: 155px;
+  width: 100%;
+  background-color: rgb(5, 5, 32);
+}
+
+#colorGradient {
+  height: 400px;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(40, 31, 46) 15%, rgb(169, 169, 169) 100%);
+}
+
+.colorGradientjs {
+  background: rgb(95, 235, 207);
+  background: linear-gradient(180deg, rgb(222, 233, 233) 24%, rgb(201, 201, 201) 50%, rgb(169, 169, 169) 100%);
+  width: 100%;
+  height: 400px;
+}
+
+.colorGradientjs1 {
+  background: rgb(95, 235, 207);
+  background: linear-gradient(180deg, rgb(129, 178, 235) 24%, rgb(157, 157, 157) 50%, rgb(169, 169, 169) 100%);
+  width: 100%;
+  height: 400px;
+}
+
+.colorGradientjs3 {
+  background: rgb(204, 236, 224);
+  background: linear-gradient(180deg, rgb(43, 46, 20) 0%, rgb(69, 92, 47) 15%, rgb(169, 169, 169) 100%);
+  width: 100%;
+  height: 400px;
+}
+
+.colorGradientjs2 {
+  background: rgb(204, 236, 224);
+  background: linear-gradient(180deg, rgb(12, 2, 26) 0%, rgb(32, 9, 64) 15%, rgb(169, 169, 169) 100%);
+  width: 100%;
+  height: 400px;
+}
+
+.component-2-component-1 strong {
+  font-size: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.component-2-component-2 strong {
+  font-size: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.component-2-component-3 strong {
+  font-size: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.component-2-component-4 strong {
+  font-size: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.component2-component-5 {
+  width: 100%;
+  height: 0px;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  position: relative;
+  top: 245px;
+  background-color: white;
+  left: -175px;
+  width: 1250px;
+}
+
+.component-2-component-6 {
+  width: 100%;
+  height: 80px;
+  width: 413px;
+  position: relative;
+  left: -483px;
+  top: 255px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.component-2-component-6-img-1 {
+  height: 43px;
+  width: 102px;
+  margin-top: 24px;
+}
+
+.component-2-component-6-button-1 {
+  height: 30px;
+  width: 120px;
+  margin-top: 24px;
+  background-color: rgb(25, 25, 64);
+  border: 1px solid white;
+}
+
+.component-2-component-6-button-2 {
+  height: 30px;
+  width: 120px;
+  margin-top: 24px;
+  background-color: rgb(25, 25, 64);
+  border: 1px solid white;
+}/*# sourceMappingURL=2.css.map */
