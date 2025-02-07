@@ -1,6 +1,18 @@
 .component4Dialog {
   border: 0;
   padding: 0;
-  font-size: 10px;
-  flex-wrap: wrap;
+  font-size: 11px;
+}
+
+.container-4-component-3-component-1 {
+  color: white;
+  font-size: 13px;
+  position: relative;
+  top: 177px;
+  width: 740px;
+  left: 350px;
+}
+.container-4-component-3-component-1 p {
+  margin-top: 0;
+  margin-left: 175px;
 }/*# sourceMappingURL=4.css.map */

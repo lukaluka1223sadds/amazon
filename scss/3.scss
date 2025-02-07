@@ -1,12 +1,15 @@
-.container-4-component-3{
+@import "colors.scss";
+.container-4-component-3 {
     height: 220px;
-    dialog{
-        display: flex;
+    dialog {
+        display: grid;
+        grid-template-columns: 100px 106px 100px 76px 100px;
+        grid-template-rows: repeat(2, 63px);
         height: 100px;
         width: 735px;
         justify-content: space-between;
-        background-color: white;
-        left: -130px;
-        top: 800px;
+        background-color: $color-7;
+        top: 820px;
+        color: white;
     }
 }

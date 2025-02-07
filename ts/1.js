@@ -2,9 +2,9 @@ var abcd;
 (function (abcd) {
     abcd[abcd["<b>Amazon Advertising</b><br> Trova, attira e coinvolgi i clienti"] = 0] = "<b>Amazon Advertising</b><br> Trova, attira e coinvolgi i clienti";
     abcd[abcd["<b>Amazon Music</b><br> Streaming di milioni dicanzoni"] = 1] = "<b>Amazon Music</b><br> Streaming di milioni dicanzoni";
-    abcd[abcd["<b>AbeBooks</b><br> Libri, arte e articoli da collezione"] = 2] = "<b>AbeBooks</b><br> Libri, arte e articoli da collezione";
+    abcd[abcd["<b>AbeBooks</b><br> Libri, arte<br> e articoli da collezione"] = 2] = "<b>AbeBooks</b><br> Libri, arte<br> e articoli da collezione";
     abcd[abcd["<b>Audible</b><br> Download Audiolibri"] = 3] = "<b>Audible</b><br> Download Audiolibri";
-    abcd[abcd["<b>Amazon Web Services </b><br> Servizi Cloud Scalabili"] = 4] = "<b>Amazon Web Services </b><br> Servizi Cloud Scalabili";
+    abcd[abcd["<b>Amazon Web Services </b><br> Servizi Cloud <br> Scalabili"] = 4] = "<b>Amazon Web Services </b><br> Servizi Cloud <br> Scalabili";
     abcd[abcd["<b>Amazon Seconda mano </b><br> I nostri prodotti usati e come nuovi"] = 5] = "<b>Amazon Seconda mano </b><br> I nostri prodotti usati e come nuovi";
     abcd[abcd["<b>Kindle Direct Publishing </b><br>Pubblica i tuoi libri in formato elettronico"] = 6] = "<b>Kindle Direct Publishing </b><br>Pubblica i tuoi libri in formato elettronico";
     abcd[abcd["<b>Shopbop </b><br> Designer, Marche, Fashion e stile"] = 7] = "<b>Shopbop </b><br> Designer, Marche, Fashion e stile";

@@ -1,9 +1,9 @@
 enum abcd{
     "<b>Amazon Advertising</b><br> Trova, attira e coinvolgi i clienti",
     "<b>Amazon Music</b><br> Streaming di milioni dicanzoni",
-    "<b>AbeBooks</b><br> Libri, arte e articoli da collezione",
+    "<b>AbeBooks</b><br> Libri, arte<br> e articoli da collezione",
     "<b>Audible</b><br> Download Audiolibri",
-    "<b>Amazon Web Services </b><br> Servizi Cloud Scalabili",
+    "<b>Amazon Web Services </b><br> Servizi Cloud <br> Scalabili",
     "<b>Amazon Seconda mano </b><br> I nostri prodotti usati e come nuovi",
     "<b>Kindle Direct Publishing </b><br>Pubblica i tuoi libri in formato elettronico",
     "<b>Shopbop </b><br> Designer, Marche, Fashion e stile",
@@ -16,7 +16,6 @@ interface component4Dialog1{
     dialog:HTMLElement;
     containerelement:HTMLDivElement;
 }
-type component4DialogConstructor={(dialog:HTMLElement,containerelement:HTMLDivElement): void}
 
 class component4Dialog implements component4Dialog1{
     dialog:HTMLElement;

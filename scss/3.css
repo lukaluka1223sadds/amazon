@@ -2,11 +2,13 @@
   height: 220px;
 }
 .container-4-component-3 dialog {
-  display: flex;
+  display: grid;
+  grid-template-columns: 100px 106px 100px 76px 100px;
+  grid-template-rows: repeat(2, 63px);
   height: 100px;
   width: 735px;
   justify-content: space-between;
-  background-color: white;
-  left: -130px;
-  top: 800px;
+  background-color: rgb(4, 4, 24);
+  top: 820px;
+  color: white;
 }/*# sourceMappingURL=3.css.map */
