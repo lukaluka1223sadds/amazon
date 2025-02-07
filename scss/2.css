@@ -10,12 +10,13 @@
 }
 
 .container-4-component-1 {
-  height: 75px;
+  height: 15px;
   background-color: rgb(38, 38, 103);
   width: 100%;
   text-align: center;
   color: white;
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 25px;
   font-size: 20px;
 }
 
