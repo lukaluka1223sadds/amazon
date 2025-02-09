@@ -22,19 +22,19 @@
 
 .container-3-component-1 {
   display: grid;
-  width: 1090px;
-  -moz-column-gap: 77px;
-       column-gap: 77px;
+  width: 1290px;
   row-gap: 30px;
+  -moz-column-gap: 37px;
+       column-gap: 37px;
   position: static;
-  margin-top: 300px;
-  grid-template-columns: repeat(3, 312px);
+  margin-top: 400px;
+  grid-template-columns: repeat(3, 405px);
   grid-template-rows: repeat(9, 350px);
 }
 
 .container-3-component-1 > * {
   height: 350px;
-  width: 312px;
+  width: 406px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -45,23 +45,23 @@
 .component-1-component-7 {
   grid-column: 1/4;
   background-color: rgb(255, 255, 255);
-  height: 210px;
+  height: 350px;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 0px;
 }
 
 .component-1-component-14 {
   grid-column: 1/4;
   background-color: rgb(255, 255, 255);
-  height: 210px;
+  height: 350px;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 0px;
 }
 
 .component-1-component-21 {
   grid-column: 1/4;
   background-color: rgb(255, 255, 255);
-  height: 210px;
+  height: 350px;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 0px;
 }/*# sourceMappingURL=1.css.map */
