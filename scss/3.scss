@@ -1,15 +1,38 @@
-@import "colors.scss";
-.container-4-component-3 {
-    height: 220px;
-    dialog {
-        display: grid;
-        grid-template-columns: 100px 106px 100px 76px 100px;
-        grid-template-rows: repeat(2, 63px);
-        height: 100px;
-        width: 735px;
-        justify-content: space-between;
-        background-color: $color-7;
-        top: 820px;
-        color: white;
-    }
+
+.container-3 {
+  height: 600px;
+  width: 100%;
+  background-image: url("../img/imgtast.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  > img {
+      height: 50px;
+      width: 50px;
+      position: relative;
+      top: 130px;
+  }
+  & img:first-child {
+      position: relative;
+      top: 130px;
+      left: 50px;
+  }
+  & img:nth-child(2) {
+      left: 1200px;
+  }
+}
+
+.container-3-component-1 {
+  display: grid;
+  width: 1290px;
+  row-gap: 30px;
+  column-gap: 37px;
+  position: static;
+  margin-top: 400px;
+  grid-template-columns: repeat(3,405px);
+  grid-template-rows: repeat(10,350px);
+}
+
+.container-3-component-1 > * {
+
+  background-color: rgb(255, 255, 255);
 }

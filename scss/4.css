@@ -1,3 +1,63 @@
+.container-4-component-3 {
+  height: 220px;
+}
+.container-4-component-3 dialog {
+  display: grid;
+  grid-template-columns: 100px 106px 100px 76px 100px;
+  grid-template-rows: repeat(2, 63px);
+  height: 100px;
+  width: 735px;
+  justify-content: space-between;
+  background-color: rgb(4, 4, 24);
+  top: 820px;
+  color: white;
+}
+
+.container-4 {
+  height: 600px;
+  width: 100%;
+  position: static;
+  transform: translate(0px, 3245px);
+}
+
+.container-4js {
+  top: 3160px;
+}
+
+.container-4-component-1 {
+  height: 15px;
+  background-color: rgb(34, 34, 73);
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+.container-4-component-2 {
+  height: 730px;
+  width: 100%;
+  background-color: rgb(16, 16, 41);
+  display: grid;
+  box-sizing: border-box;
+  -moz-column-gap: 1px;
+       column-gap: 1px;
+  color: white;
+  font-size: 15px;
+  grid-template-columns: repeat(4, 172px);
+  grid-template-rows: repeat(2, 335px);
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.container-4-component-3 {
+  width: 100%;
+  background-color: rgb(4, 4, 24);
+}
+
 .component4Dialog {
   border: 0;
   padding: 0;
