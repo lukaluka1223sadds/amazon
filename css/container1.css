@@ -6,10 +6,20 @@ display: flex;
 padding-top: 15px;
 }
 .container-1-component-1{
-    height: 60px;
-    width: 155px;
-    margin-left: 20px;
-    margin-right: 10px;
+    height: 40px;
+    width: 134px;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 9px;
+}
+
+
+.container-1-component-1:hover{
+    height: 40px;
+    width: 134px;
+    border: 1px solid white;
+    padding: 8px 14px 15px 29px;
+    margin:0;
 }
 .container-1-component-2{
     display: grid;
@@ -17,8 +27,15 @@ padding-top: 15px;
     grid-template-rows: repeat(2 , 0px);
     row-gap: 15px;
     column-gap: 35px;
-    margin-right: 170px;
+    padding: 3px 170px 0 1px;
+
 }
+.container-1-component-2:hover{
+    border: 1px solid white;
+    margin-right: 1px;
+    padding: 2px 168px 0 0;
+}
+
 .container-1-component-2 p:last-child{
     font-size: 20px;
     color: white;
@@ -33,16 +50,21 @@ padding-top: 15px;
     width: 105px;
 }
 .container-1-component-2 img{
-
-    height: 30px;
-    width: 30px;
+    margin: 10px 0 0 10px;
+    height: 20px;
+    width: 20px;
 }
 .component-3-component-1{
     height: 45px;
     width: 163px;
     position: relative;
-    top: -2px;
+    top: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 15px;
 }
+
+
 #component-3-component-2{
 height: 39px;
 width: 319px;
@@ -50,39 +72,62 @@ position: relative;
 left: -5px;
 padding-left: 40px;
 font-size: 20px;
+top: 4px;
 }
 .component-3-component-3{
-    height: 45px;
+    height: 44px;
     width: 45px;
     background-color: rgb(241, 145, 0);
     float: right;
     position: relative;
     left: -5px;
+    top: 5px;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     box-sizing: border-box;
+     padding: 9px 0 0 9px;
+
 }
 .component-3-component-4{
-    height: 42px;
-    width: 42px;
-    float: right;
+    height: 25px;
+    width: 25px;
+    
+   
 }
 .container-1-component-4{
     color: white;
-    font-size: 30px;
-    margin: 8px 0px 0px 20px;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
 }
+
+.container-1-component-4_8{
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px 8px 0 20px;
+    &:hover{
+        border: 1px solid white;
+        padding: 19px 7px 0 19px;
+    }
+}
+
 .container-1-component-5{
     font-size: 20px;
     color: white;
-    margin: 14px 0px 0px 20px;
+    margin: 20px 0px 0px 20px;
 }
 .container-1-component-6{
-    height: 60px;
-    width: 70px;
-    margin-left: 10px;
-    margin-top: -6px;
+    height: 50px;
+    width: 60px;
+    margin-left: 25px;
 }
 .container-1-component-7{
-    font-size: 25px;
+    font-size: 19px;
     color: white;
-    margin-left: 10px;
-    margin-top: 14px;
+    margin-top: 25px;
+}
+.container-1-component-8{
+    height: 20px;
+    width: 40px;
+    margin-left: 12px;
+    margin-right: 8px;
 }
