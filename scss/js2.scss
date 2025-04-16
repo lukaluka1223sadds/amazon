@@ -1,0 +1,40 @@
+
+@mixin component-1-component2copy{
+    grid-column: 1/4;
+     background-color: rgb(255, 255, 255);
+    height: 350px;
+    width: 100%;
+    margin-top: 0px;
+}
+.component-1-component-{
+    &7{
+        @include component-1-component2copy
+    }
+    &14{
+        @include component-1-component2copy
+    }
+    &21{
+        @include component-1-component2copy
+    }
+}    
+
+@mixin component-1-component1copy {
+    height: 370px;
+    padding-right: 24px;
+    background-color: gray;
+    position: relative;
+    top: -10px;
+    left: -12px;
+}
+
+.component-1-component- {
+    &7:hover {
+        @include component-1-component1copy;
+    }
+    &14:hover {
+        @include component-1-component1copy; 
+    }
+    &21:hover {
+        @include component-1-component1copy;
+    }
+}

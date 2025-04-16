@@ -3,6 +3,5 @@ function createComponent(start,end){
         document.write(`<div class="component-1-component-${i}"></div>`)
     }
 }
-
 createComponent(1,24)
 

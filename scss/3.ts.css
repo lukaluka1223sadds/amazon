@@ -1,0 +1,17 @@
+.productSize1 {
+  height: 370px;
+  width: 430px;
+  background-color: gray;
+  position: relative;
+  top: -10px;
+  left: -12px;
+}
+
+.productSize2 {
+  height: 370px;
+  padding-right: 24px;
+  background-color: gray;
+  position: relative;
+  top: -10px;
+  left: -12px;
+}/*# sourceMappingURL=3.ts.css.map */

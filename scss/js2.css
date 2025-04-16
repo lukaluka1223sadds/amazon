@@ -1,0 +1,46 @@
+.component-1-component-7 {
+  grid-column: 1/4;
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 100%;
+  margin-top: 0px;
+}
+.component-1-component-14 {
+  grid-column: 1/4;
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 100%;
+  margin-top: 0px;
+}
+.component-1-component-21 {
+  grid-column: 1/4;
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.component-1-component-7:hover {
+  height: 370px;
+  padding-right: 24px;
+  background-color: gray;
+  position: relative;
+  top: -10px;
+  left: -12px;
+}
+.component-1-component-14:hover {
+  height: 370px;
+  padding-right: 24px;
+  background-color: gray;
+  position: relative;
+  top: -10px;
+  left: -12px;
+}
+.component-1-component-21:hover {
+  height: 370px;
+  padding-right: 24px;
+  background-color: gray;
+  position: relative;
+  top: -10px;
+  left: -12px;
+}/*# sourceMappingURL=js2.css.map */
